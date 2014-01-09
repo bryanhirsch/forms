@@ -12,8 +12,6 @@ dependencies[] = syslog
 ; -------
 dependencies[] = aws_sqs
 dependencies[] = composer_manager
-dependencies[] = google_analytics
-dependencies[] = memcache
+dependencies[] = googleanalytics
 dependencies[] = shunt
 dependencies[] = statsd
-dependencies[] = zen
