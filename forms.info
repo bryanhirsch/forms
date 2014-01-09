@@ -2,4 +2,18 @@ name = Forms
 description = Start with only a few modules enabled.
 version = VERSION
 core = 7.x
+
+; core
+; ----
 dependencies[] = block
+dependencies[] = syslog
+
+; contrib
+; -------
+dependencies[] = aws_sqs
+dependencies[] = composer_manager
+dependencies[] = google_analytics
+dependencies[] = memcache
+dependencies[] = shunt
+dependencies[] = statsd
+dependencies[] = zen
