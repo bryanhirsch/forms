@@ -1,0 +1,3 @@
+name = Form to Queue
+description = Send form submissions to directly to queue. Process submissions separately.
+core = 7.x
